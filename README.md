@@ -114,4 +114,9 @@ The component_dict is saved in a component_dict (json)
 }
 ```
 
+### Features
+- [x] Pytorch-style
+- [ ] Agents Complier
+- [ ] Agent Prompt Optimization
+- [ ] Agents Relationship Optimization
 
