@@ -3,7 +3,7 @@
 ### Pytorch style
 The repository is based on a multi-agent system.
 
-It's like Pytorch mechanism to flow the data on a graph.
+It's like Pytorch mechanism to flow tnhe data on a graph.
 
 Because it depends on a structure to transmit the data. 
 
@@ -21,6 +21,26 @@ Or any functions you need.
 1. __init__: Define the variables
 
 2. forward: Design how to operate the data
+
+```
+class Your_Agent(Agent):
+    
+    def __init__(self, agent_name, prompt, model):
+        super().__init__(agent_name, prompt, model)
+        
+        # Define your agent and
+        # relationship
+    
+    def forward(self, data):
+
+        data = self.model(data)
+
+        # Design the flow and
+        # communication
+
+        return data
+        
+```
 
 There is an example.
 
